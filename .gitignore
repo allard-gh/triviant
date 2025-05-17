@@ -1,1 +1,55 @@
-.idea
+# ===== Python-specific =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ===== Virtual environments =====
+.venv/
+env/
+venv/
+
+# ===== Environment variables =====
+.env
+
+# ===== IDE: PyCharm =====
+.idea/
+
+# ===== Testing & coverage =====
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nox/
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+
+# ===== Mypy & Pyright =====
+.mypy_cache/
+.pyright/
+dmypy.json
+
+# ===== Logs =====
+*.log
+
+# ===== OS/system files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Misc =====
+*.swp
+*.bak
+*.tmp
